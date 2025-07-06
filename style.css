@@ -1,0 +1,342 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+body{
+    background-color: rgb(253, 246, 246);
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 467px;
+    margin-top: 60px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 57px;
+    list-style-type: none;
+}
+ul li{
+  font-family: "Rubik", sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+ul li:hover{
+    color: #FF6838;
+}
+ul button{
+    width: 120px;
+height: 50px;
+background-color: #FF7A50;
+border-radius: 5px;
+border: none;
+box-shadow: 0px 22px 40px 0px #FF683830;
+  font-family: "Rubik", sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: white;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 52px;
+}
+.span{
+    font-family: Rubik;
+font-weight: 500;
+font-size: 66px;
+  font-family: "Rubik", sans-serif;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #FF7A50;
+}
+.left h1{
+color: #363853;
+font-weight: 500;
+font-size: 66px;
+ font-family: "Rubik", sans-serif;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+
+}
+.left p{
+  font-family: "Rubik", sans-serif;
+font-weight: 400;
+font-size: 20px;
+color: #363853;
+line-height: 30px;
+letter-spacing: 0%;
+text-transform: capitalize;
+width: 513px;
+margin-top: 23px;
+margin-bottom: 44px;
+}
+.left button{
+        width: 163px;
+height: 50px;
+background-color: #FF7A50;
+border-radius: 5px;
+border: none;
+box-shadow: 0px 22px 40px 0px #FF683830;
+  font-family: "Rubik", sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: white;
+}
+
+.ota1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 137px;
+    margin-top: 124px;
+}
+.left1 h1{
+color: #363853;
+font-weight: 500;
+font-size: 36px;
+  font-family: "Rubik", sans-serif;
+line-height: 50px;
+letter-spacing: 0%;
+text-transform: capitalize;
+ width: 384px;
+}
+.left1 span{
+  color:#FF7A50 ;  
+
+font-weight: 500;
+font-size: 36px;
+  font-family: "Rubik", sans-serif;
+line-height: 50px;
+letter-spacing: 0%;
+text-transform: capitalize;
+
+}
+.left1 p{
+  font-family: "Rubik", sans-serif;   
+font-weight: 400;
+font-size: 20px;
+color: #363853;
+line-height: 30px;
+letter-spacing: 0%;
+margin-top: 95px;
+margin-bottom: 141px;
+width: 449px;
+}
+.left1 button{
+    width: 176px;
+height: 58px;
+top: 1515px;
+left: 855px;
+background-color:#FF7A50 ;
+opacity: 1;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 1px;
+border-bottom-left-radius: 30px;
+color: white;
+font-weight: 400;
+font-size: 20px;
+font-family: "Rubik", sans-serif;   
+line-height: 100%;
+letter-spacing: 0%;
+box-shadow: 0px 22px 40px 0px #FF683830;
+border: none;
+}
+h2{
+    text-align: center;
+    font-family: Rubik;
+font-weight: 500;
+font-size: 36px;
+font-family: "Rubik", sans-serif;
+line-height: 30px;
+letter-spacing: 0%;
+text-transform: capitalize;
+margin-top: 44px;
+}
+h2 span{
+    color: #FF7A50;
+}
+nav{
+    display: flex;
+    gap: 43px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card{
+   background-color: white; 
+   width: 361px;
+height: 417px;
+top: 1809px;
+left: 560px;
+
+opacity: 1;
+border-top-left-radius: 53px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 53px;
+border-bottom-left-radius: 5px;
+
+}
+.card h1{
+font-family: "Rubik", sans-serif;
+font-weight: 400;
+font-size: 24px;
+margin-left: 20px;
+line-height: 30px;
+letter-spacing: 0%;
+color: #363853;
+margin-top: 21px;
+}
+.btnp{
+display: flex;
+gap: 8px;
+align-items: center;
+margin-top: 14px;
+margin-left: 20px;
+}
+.btnp p{
+    font-family: Rubik;
+font-weight: 300;
+font-size: 18px;
+color: #363853;
+line-height: 30px;
+letter-spacing: 0%;
+}
+.btnp button{
+    width: 79px;
+height: 33px;
+top: 2171px;
+left: 1207px;
+box-shadow: 0px 5px 12px 0px #FF683830;
+background-color: #FF7A50;
+opacity: 1;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+border: none;
+margin-left: 27px;
+}
+.ota2{
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 20px;
+    align-items: center;
+    margin-top: 162px;
+}
+.ota2 h1{
+font-family: "Rubik", sans-serif;
+font-weight: 500;
+font-size: 36px;
+color: #363853;
+line-height: 50px;
+letter-spacing: 0%;
+text-transform: capitalize;
+
+}
+.ota2 span{
+    color: #FF6838;
+}
+.ota2 p{
+font-family: "Rubik", sans-serif;
+font-weight: 400;
+font-size: 20px;
+color: #363853;
+line-height: 30px;
+letter-spacing: 0%;
+width: 538px;
+margin-top: 30px;
+}
+footer{
+    background-color: #FF7A50;
+    width: 1170px;
+    border-radius: 20px;
+ height:   312px; 
+ margin: 110px auto;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+
+}
+footer h1{
+font-family: "Rubik", sans-serif;    
+font-weight: 500;
+font-size: 40px;
+color: white;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+form{
+    width: 838.5px;
+height: 78px;
+top: 3156.45px;
+left: 303.75px;
+border-radius:70px ;
+background-color: white;
+opacity: 1;
+display: flex;
+box-shadow: 10px 24px 54px 0px #00000012;
+align-items: center;
+gap: 43px;
+justify-content: center;
+gap: 387px;
+}
+input{
+    background: none;
+    border: none;
+font-family: "Rubik", sans-serif;   
+font-weight: 400;
+font-size: 18px;
+color: #363853;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+footer button{
+    width: 191.10000610351562px;
+height: 58.5px;
+top: 3166px;
+left: 941.4px;
+border-width: 1px;
+border: 1px solid #000000;
+opacity: 1;
+border-radius: 70px;
+background-color: #FF7A50;
+color: white;
+font-weight: 500;
+font-size: 20px;
+font-family: "Rubik", sans-serif;  
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+
